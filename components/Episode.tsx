@@ -3,7 +3,7 @@ import Shownote from './Shownote'
 import { useState, useEffect } from 'react'
 import Moment from 'react-moment'
 import Highlighter from 'react-highlight-words'
-import { escape, unescape } from 'html-escaper';
+import { unescape } from 'html-escaper';
 import escapeStringRegexp from 'escape-string-regexp'
 
 const Episode = (props: { episode: EpisodeType, query: string }) => {
